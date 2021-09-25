@@ -1,8 +1,10 @@
 package com.company.Description;
 
-import java.util.ArrayList;
+import com.company.Model.GroupModel;
 
 public interface TeacherDescription {
-    ArrayList<StudentDescription> getStudents();
+    String getFullName();
+    String getPhoneNumber();
     String getDiscipline();
+    String showStudents(GroupModel group);
 }
